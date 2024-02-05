@@ -31,7 +31,7 @@ def about():
     """Renders the about page."""
     return render_template(
         'about.html',
-        title='About',
+        title='About_Trung_Test',
         year=datetime.now().year,
-        message='Your application description page.'
+        message='Your application description page form Trung.'
     )
